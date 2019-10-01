@@ -15,6 +15,14 @@ app.get('/gallery', function(req, res){
     res.render('gallery');
 });
 
+app.get('/contact', function(req, res){
+    res.render('contact');
+});
+
+app.get('/about', function(req, res){
+    res.render('about');
+});
+
 app.listen(port, function(){
     console.log('Listening on port ' + port);
 });
