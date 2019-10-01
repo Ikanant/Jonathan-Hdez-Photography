@@ -46,7 +46,9 @@ function init() {
     var addresses = ['New York'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
+        console.log(addresses[x]);
+        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyBOUMv5vIJ4C6HxYsFpKybAYjLe9V4pVBE&address='+addresses[x]+'&sensor=false', null, function (data) {
+            console.log(data);
             var p = data.results[0].geometry.location
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({
