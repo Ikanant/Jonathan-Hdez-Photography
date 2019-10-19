@@ -23,6 +23,10 @@ app.get('/about', function(req, res){
     res.render('about');
 });
 
+app.get('/modelGallery', function(req, res){
+    res.render('modelGallery');
+});
+
 app.listen(port, function(){
     console.log('Listening on port ' + port);
 });
