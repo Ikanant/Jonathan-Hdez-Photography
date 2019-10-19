@@ -24,7 +24,19 @@ app.get('/about', function(req, res){
 });
 
 app.get('/modelGallery', function(req, res){
-    res.render('modelGallery');
+    res.render('subGalleries/modelGallery');
+});
+app.get('/familyGallery', function(req, res){
+    res.render('subGalleries/familyGallery');
+});
+app.get('/petGallery', function(req, res){
+    res.render('subGalleries/petGallery');
+});
+app.get('/travelGallery', function(req, res){
+    res.render('subGalleries/travelGallery');
+});
+app.get('/droneGallery', function(req, res){
+    res.render('subGalleries/droneGallery');
 });
 
 app.listen(port, function(){
