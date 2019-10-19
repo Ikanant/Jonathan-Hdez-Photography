@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5,
   &.dark {
   	&.active i {
 			&::before, &::after {
-				background: $black;
+				background: #ffffff;
 			}
 	  }
   }
