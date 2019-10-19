@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<% include ./partials/head.ejs %>
-  </head>
-  <body>	
-    <% include ./partials/sidebar.ejs %>
 
-    <div id="colorlib-main">
-			<section class="ftco-section bg-light ftco-bread">
-				<div class="container">
-					<div class="row no-gutters slider-text align-items-center">
-	          <div class="col-md-9 ftco-animate" style="padding-top: 10px">
-	            <p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>About</span></p>
-	            <h1 class="mb-3 bread">About Me</h1>
-				
-				<p><span>Phone:</span> <a style="color: black !important" href="tel://9194382257">+1 (919) 438 2257 </a></p>
-				<p><span>Email:</span> <a style="color: black !important" href="mailto:contact@jonathanhdezphotography.com">contact@jonathanhdezphotography.com</a></p>
-	          </div>
-	        </div>
-				</div>
-			</section>
-			<section class="ftco-section-no-padding bg-light">
-				<div class="container">				
-					<p>Something something about myself. so many sentences to make sure this page looks good. cool cool. Keep at it. This page is looking so much better already. Nice! Lets hope this works out.</p>
-					<p style="text-align: center;">
-						<img src="images/author.jpg" alt="" class="img-fluid">
-					</p>
-					<p>Something something about myself. so many sentences to make sure this page looks good. cool cool. Keep at it. This page is looking so much better already. Nice! Lets hope this works out.</p>
-					
-					<div class="tag-widget post-tag-container mb-5 mt-5">
-						<ul class="ftco-social mt-3">
-							<li class="ftco-animate"><a href="https://www.instagram.com/john.znow/" target="_blank"><span class="icon-instagram"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.facebook.com/Jonathan-Hernandez-Photography-105689607505459" target="_blank"><span class="icon-facebook"></span></a></li>
-						</ul>
+<head>
+	<% include ./partials/head.ejs %>
+</head>
+
+<body>
+	<% include ./partials/sidebar.ejs %>
+
+	<div id="colorlib-main">
+		<section class="ftco-section bg-light ftco-bread">
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center">
+					<div class="col-md-9 ftco-animate" style="padding-top: 10px">
+						<p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>About</span></p>
+						<h1 class="mb-3 bread">Jonathan Hernandez</h1>
+						<p style="margin: 0px;"><span>Location:</span> <a style="color: black !important" href="https://www.google.com/maps/place/Raleigh,+NC" target="_blank">Raleigh, NC</a></p>
+						<p style="margin: 0px;"><span>Phone:</span> <a style="color: black !important" href="tel://9194382257" target="_blank">+1 (919) 438 2257 </a></p>
+						<p style="margin: 0px;"><span>Email:</span> <a style="color: black !important" href="mailto:contact@jonathanhdezphotography.com" target="_blank">contact@jonathanhdezphotography.com</a>
+						</p>
 					</div>
 				</div>
-			</section>
-			<section class="ftco-section">
-	    </section>
-		</div><!-- END COLORLIB-MAIN -->
+			</div>
+		</section>
+		<section class="ftco-section-no-padding bg-light">
+			<div class="container">
+				<p>Growing up in Cuba, photography always intrigued me, but it wasn't until I was 15 and had just moved to the US that I bought my first camera. I'm a software engineer by day with a passion for capturing life through my lens. I enjoy traveling, computer building, and spending time with my girlfriend and Australian Shepherd, Finn.</p>
+				<p style="text-align: center;">
+					<img src="images/author.jpg" alt="" class="img-fluid">
+				</p>
+				<p>I'm dedicated to providing quality photos that you'll be excited to share. I will work with you snap family or pet photos, capture life events such as engagements and baby announcements as well as take professional headshots, creative modeling and drone photography. I am available for events. Hablo español tambien.</p>
+
+				<div class="tag-widget post-tag-container mb-5 mt-5">
+					<ul class="ftco-social mt-3">
+						<li class="ftco-animate"><a href="https://www.instagram.com/john.znow/" target="_blank"><span
+									class="icon-instagram"></span></a></li>
+						<li class="ftco-animate"><a
+								href="https://www.facebook.com/Jonathan-Hernandez-Photography-105689607505459"
+								target="_blank"><span class="icon-facebook"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<% include ./partials/footer.ejs %> 
+	</div><!-- END COLORLIB-MAIN -->
 	</div><!-- END COLORLIB-PAGE -->
 
-    <% include ./partials/scripts.ejs %> 
-  </body>
+	<% include ./partials/scripts.ejs %>
+</body>
+
 </html>
