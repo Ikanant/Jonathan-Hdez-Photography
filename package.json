@@ -1,5 +1,5 @@
 {
-  "name": "dentistapt",
+  "name": "jonathanhdezphotographyapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,8 @@
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "gulp-inject": "^4.0.0",
-    "gulp-nodemon": "^2.0.6"
+    "gulp-nodemon": "^2.0.6",
+    "newrelic": "^6.1.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
